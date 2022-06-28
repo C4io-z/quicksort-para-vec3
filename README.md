@@ -17,7 +17,11 @@ class quicksort{
         void print();
 };
 ```
+Exemplo de uso:
+
 ```cpp
+
+int main(){
     quicksort obj; ///cria um objeto.
     
     obj.elements = vertices; /// passa um std::vector<vec3> com os vetores que se quer organizar.
@@ -27,4 +31,8 @@ class quicksort{
     obj.Quicksort(); /// organiza o vetor;
     obj.setIndex(); /// faz com que os indices apontem para o mesmo vetorque apontavam antes do array ser organizado.
     vertices = obj.elements; /// recebe o novo vetor organizado.
-    indices = obj.indices; /// recebe os imdices que aponta para o vetor correto.
+    indices = obj.indices; /// recebe os imdices que aponta para o vetor correto
+   
+ }
+
+```
